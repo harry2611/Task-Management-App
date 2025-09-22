@@ -53,8 +53,6 @@ frontend/
 │ ├── App.js
 │ └── index.js
 
-yaml
-Copy code
 
 ---
 
