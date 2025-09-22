@@ -1,0 +1,92 @@
+# SmartTask Pro – Full-Stack Task Management App
+
+A full-stack Task Manager web application built with **Java Spring Boot** (backend) and **React.js** (frontend).  
+The app enables users to add, view, update, and delete tasks with a responsive UI and persistent backend APIs.
+
+---
+
+## 🚀 Features
+
+- Create, update, delete, and view tasks  
+- Mark tasks as completed or pending  
+- RESTful API design with clean MVC architecture  
+- Responsive UI styled with Bootstrap  
+- In-memory H2 database for lightweight development and testing  
+
+---
+
+## 🛠️ Tech Stack
+
+### Backend:
+- Java 17  
+- Spring Boot  
+- Spring Web  
+- Spring Data JPA  
+- H2 Database  
+
+### Frontend:
+- React.js  
+- Axios  
+- Bootstrap  
+
+---
+
+## 📂 Project Structure
+
+### Backend:
+task-manager/
+├── controller/
+├── model/
+├── repository/
+├── service/
+└── TaskManagerApplication.java
+
+shell
+Copy code
+
+### Frontend:
+frontend/
+├── src/
+│ ├── components/
+│ │ ├── AddTask.js
+│ │ └── TaskList.js
+│ ├── App.js
+│ └── index.js
+
+yaml
+Copy code
+
+---
+
+## ⚙️ How to Run
+
+### Prerequisites:
+- Java 17 or higher  
+- Maven  
+- Node.js & npm  
+
+### Run Backend:
+```bash
+cd task-manager
+mvn spring-boot:run
+Run Frontend:
+bash
+Copy code
+cd frontend
+npm install
+npm start
+Frontend runs at http://localhost:3000 (or 3001 if port is busy).
+Backend runs at http://localhost:8080.
+
+📌 API Endpoints
+Method	Endpoint	Description
+GET	/api/tasks	Get all tasks
+POST	/api/tasks	Add a new task
+PUT	/api/tasks/{id}	Update task by ID
+DELETE	/api/tasks/{id}	Delete task by ID
+
+✍️ Author
+Built with ❤️ by Harsh Mukund Zele
+MS in Computer Science @ USC
+
+
